@@ -1,0 +1,12 @@
+INSTITUTO VIBRASER — PACOTE PWA v10.23
+
+Ficheiros:
+- index.html: aplicação base v10.23 com referência ao manifest e registo do service worker
+- manifest.webmanifest: identidade e configuração de instalação
+- service-worker.js: cache offline dos ficheiros da aplicação
+- icon.svg: ícone
+
+IMPORTANTE:
+A instalação PWA exige que estes ficheiros sejam publicados juntos num endereço HTTPS (ou executados em localhost). Abrir index.html diretamente como ficheiro local (file://) não ativa a instalação PWA nem o service worker.
+A cache offline garante a disponibilidade dos ficheiros da aplicação; os dados pessoais guardados em localStorage continuam ligados ao navegador/dispositivo e não são sincronizados.
+Esta preparação técnica não substitui testes funcionais em Chrome/Chromebook.

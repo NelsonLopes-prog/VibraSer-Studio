@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Instituto VibraSer — O Caminho do Som",
+  "short_name": "Instituto VibraSer",
+  "description": "Formação em Taças Tibetanas — O Caminho do Som",
+  "lang": "pt-PT",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#17101e",
+  "theme_color": "#17101e",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
